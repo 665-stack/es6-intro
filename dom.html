@@ -10,6 +10,7 @@
 <style>
     body {
         font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
     }
 
     button {
@@ -22,6 +23,13 @@
 
     button:hover {
         background-color: rgb(114, 114, 244);
+    }
+
+    .control-room {
+        background-color: rgb(159, 152, 81);
+        border-radius: 25px;
+        padding: 25px 25px 50px 25px;
+
     }
 </style>
 
@@ -44,7 +52,7 @@
             <p>Sint, tempore.</p>
         </div>
     </div>
-    <div>
+    <div class="control-room">
         <h2>Control room</h2>
         <button id="add-border">Add border</button>
         <button onclick="addBackgroundColor()"> Add background</button>
