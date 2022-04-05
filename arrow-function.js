@@ -12,6 +12,7 @@ const add3 = function (num1, num2) {
 }
 // arrow function
 const add4 = (num1, num2) => num1 + num2;
+
 const sum1 = add(12, 18);
 const sum2 = add2(20, 10);
 const sum3 = add3(5, 25);
