@@ -17,6 +17,18 @@ console.log('tenTimesResult -- ', tenTimesResult)
 const getName = () => 'Brandon Sam';
 const name = getName();
 console.log('name -- ', name)
+// multiline code hole {} diye korte parbo;
+const doMath = (x, y) => {
+    const sum = x + y;
+    const diff = x - y;
+    const result = sum * diff;
+    const output = result * 5;
+    return output;
+}
+const doMathResult = doMath(10, 5);
+console.log('doMathResultn -- ', doMathResult);
+//====================
+document.getElementById('id').addEventListener(event => {
 
-
+})
 
