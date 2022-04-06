@@ -6,7 +6,7 @@ const numbers = [23, 65, 99, 21, 34];
 const max = Math.max(...numbers);
 // console.log(max)
 
-// more uses for spread operator;------ 
+// more uses for spread soperator;------ 
 //akhane ami noton var make korteci ager var er man diyei, akhon ami cacci na je ager var e push kora number a new var e na ashok. taile eibabe likte pari;akhane shodu ager var er man niye new akta var make kora hoice, new var akhon ami onk kicui korete parbo;
 const numbers2 = [11, ...numbers, 88]
 numbers.push(55);
